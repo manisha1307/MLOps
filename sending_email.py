@@ -5,7 +5,7 @@
 import smtplib
 import urllib.request as urllib
 # Senders email
-sender_email = "jangirmanvi13@gmail.com"
+sender_email = "shivamguptasparklev@gmail.com"
 # Receivers email
 rec_email = "jangirmanvi13@gmail.com"
 
@@ -15,7 +15,7 @@ server = smtplib.SMTP('smtp.gmail.com', 587)
 # Start the server connection
 server.starttls()
 # Login
-server.login("jangimanvi13@gmail.com", "")
+server.login("shivamguptasparklev@gmail.com", "up21bj4114")
 print("Login Success!")
 # Send Email
 server.sendmail("manisha jangir", "jangirmanvi13@gmail.com", message)
